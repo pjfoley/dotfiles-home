@@ -1,0 +1,21 @@
+if [ "$TERM" != "dumb" ]; then
+      eval "`dircolors -b`"
+      alias ls='ls --color=auto'
+      alias grep='grep --color=auto'
+      alias fgrep='fgrep --color=auto'
+      alias egrep='egrep --color=auto'
+
+else
+      alias ls="ls -F"
+      alias ll='ls -alF'
+      alias la='ls -A'
+      alias l='ls -CF'
+fi
+
+#List all folders
+
+alias lf='ls -Gl | grep --color=auto ^d' #Only list directories
+alias lsd='ls -Gal | grep --color=auto ^d' #Only list directories, including hidden ones
+
+# Show hidden files only
+alias l.='ls -d .* --color=auto'

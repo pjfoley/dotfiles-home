@@ -1,0 +1,11 @@
+# Jump back n directories at a time
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+
+# Make and cd into directory
+function mcd() {
+  mkdir -p "$1" && cd "$1";
+}
