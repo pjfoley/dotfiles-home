@@ -44,7 +44,7 @@ set keymap vi-command
 "\e\e[B": history-search-forward
 
 # Clear the screen in command mode
-"C-l": clear-screen
+"\C-l": clear-screen
 
 ###########################################################
 # Keymaps for when we're in insert (i.e., typing stuff in) mode
@@ -65,4 +65,4 @@ set keymap vi-insert
 "p": self-insert
 
 # Re-add the ability to clear the screen in insert mode
-"C-l": clear-screen
+"\C-l": clear-screen
