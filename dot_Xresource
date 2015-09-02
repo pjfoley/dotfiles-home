@@ -1,0 +1,9 @@
+URxvt.background:       black
+URxvt.foreground:       white
+
+URxvt.xftAntialias:     true
+URxvt.font:             xft:hack-regular:pixelsize=11:antialias=true:hinting=true, xft:inconsolata:pixelsize=13:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.boldFont:         xft:hack-bold:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.italicFont:       xft:hack-regularoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.bolditalicFont:   xft:hack-boldoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+
