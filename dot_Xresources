@@ -2,8 +2,18 @@ URxvt.background:       black
 URxvt.foreground:       white
 
 URxvt.xftAntialias:     true
-URxvt.font:             xft:hack-regular:pixelsize=11:antialias=true:hinting=true, xft:inconsolata:pixelsize=13:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.font:             xft:hack-regular:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
 URxvt.boldFont:         xft:hack-bold:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
 URxvt.italicFont:       xft:hack-regularoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
 URxvt.bolditalicFont:   xft:hack-boldoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
 
+URxvt.saveLines:        8192
+
+URxvt.perl-ext:           default,matcher,searchable-scrollback,selection,selection-autotransform
+URxvt.url-launcher:       sensible-browser
+URxvt.underlineURLs:      true
+URxvt.matcher.button:     1
+URxvt.matcher.pattern.1:  \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+URxvt.matcher.pattern.2:  \\B(/\\S+?):(\\d+)(?=:|$)
+!  - catch ugly URLs
+URxvt.cutchars:          `()'*<>[]{|}"
