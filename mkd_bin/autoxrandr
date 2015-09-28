@@ -1,0 +1,17 @@
+#!/bin/bash
+# Source user defaults if file exists
+FILE=/etc/default/display-setup ; [ -f $FILE ] && . $FILE
+XRANDR=${XRANDR:-/usr/bin/xrandr}
+PRIMARY=${PRIMARY:-DVI-D-1}
+CMD="${XRANDR}"
+
+${XRANDR} --output $PRIMARY --auto --primary
+
+RIGHT_OF_DISPLAY=$PRIMARY
+
+for output in $(${XRANDR} | awk '$2 ~ /^connected/{print $1 } '); do
+  if [[ ! $output =~ $RIGHT_OF_DISPLAY ]]; then
+    ${XRANDR} --output $output --auto --right-of $RIGHT_OF_DISPLAY
+    RIGHT_OF_DISPLAY=$output
+  fi
+done
