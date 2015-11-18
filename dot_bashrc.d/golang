@@ -1,0 +1,12 @@
+! [ -d /usr/local/go/ ] && exit
+
+export GOROOT=/usr/local/go/
+export GOPATH=$HOME/dev/golang
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+! [ -d "$GOPATH" ] && mkdir -p "$GOPATH"
+
+LINE='export DIR_go="$GOPATH"'
+FILE='$HOME/.sdirs'
+grep -q "$LINE" "$FILE" || echo "$LINE" >> "$FILE"
