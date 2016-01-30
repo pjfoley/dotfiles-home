@@ -10,18 +10,25 @@ rofi.font: System San Francisco Display 18
 rofi.opacity: 80
 
 URxvt.background:       #151718
-URxvt.foreground:       #d6d6d6
+URxvt.foreground:       #d6d66
+
+!! font configurations (xft)
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
 
 URxvt.xftAntialias:     true
-URxvt.font:             SFNS Display:style=Regular xft:hack-regular:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
-URxvt.boldFont:         SFNS Display:style=Bold xft:hack-bold:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
-URxvt.italicFont:       SFNS Display:style=UltraLight xft:hack-regularoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
-URxvt.bolditalicFont:   SFNS Display:style=Thin xft:hack-boldoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.font:             xft:SFNS Display:style=Regular xft:hack-regular:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.boldFont:         xft:SFNS Display:style=Bold xft:hack-bold:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.italicFont:       xft:SFNS Display:style=UltraLight xft:hack-regularoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.bolditalicFont:   xft:SFNS Display:style=Thin xft:hack-boldoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
 
 URxvt.saveLines:        8192
 
 URxvt.perl-ext:           default,matcher,searchable-scrollback,selection,selection-autotransform
-URxvt.url-launcher:       sensible-browser
+URxvt.url-launcher:       i3-sensible-browser
 URxvt.underlineURLs:      true
 URxvt.matcher.button:     1
 URxvt.matcher.pattern.1:  \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
