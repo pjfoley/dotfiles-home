@@ -10,7 +10,7 @@ rofi.font: System San Francisco Display 18
 rofi.opacity: 80
 
 URxvt.background:       #151718
-URxvt.foreground:       #d6d66
+URxvt.foreground:       #d6d6d6
 
 !! font configurations (xft)
 Xft.dpi:        96
