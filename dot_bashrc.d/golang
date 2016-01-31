@@ -1,6 +1,6 @@
 ! [ -d /usr/local/go/ ] && exit
 
-export GOROOT=/usr/local/go/
+export GOROOT=/usr/local/go
 export GOPATH=$HOME/dev/golang
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
