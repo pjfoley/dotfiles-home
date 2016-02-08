@@ -20,10 +20,10 @@ Xft.hinting:    true
 Xft.hintstyle:  hintslight
 
 URxvt.xftAntialias:     true
-URxvt.font:             xft:SFNS Display:style=Regular xft:hack-regular:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
-URxvt.boldFont:         xft:SFNS Display:style=Bold xft:hack-bold:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
-URxvt.italicFont:       xft:SFNS Display:style=UltraLight xft:hack-regularoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
-URxvt.bolditalicFont:   xft:SFNS Display:style=Thin xft:hack-boldoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.font:             xft:hack-regular:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.boldFont:         xft:hack-bold:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.italicFont:       xft:hack-regularoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.bolditalicFont:   xft:hack-boldoblique:pixelsize=11:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
 
 URxvt.saveLines:        8192
 
