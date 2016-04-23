@@ -1,5 +1,5 @@
 if [ "$TERM" != "dumb" ]; then
-      eval "`dircolors -b`"
+      eval "`dircolors -b $HOME/.bashrc.d/support_files/LS_COLORS/LS_COLORS`"
       alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
       alias ll='ls -l --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
       alias la='ls -la --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
