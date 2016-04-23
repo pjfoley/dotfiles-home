@@ -1,3 +1,9 @@
 [submodule "dot_vim"]
 	path = dot_vim
 	url = git://github.com/pjfoley/dotvim.git
+[submodule "dot_bashrc.d/support_files/LS_COLORS"]
+	path = dot_bashrc.d/support_files/LS_COLORS
+	url = https://github.com/trapd00r/LS_COLORS.git
+[submodule "dot_bashrc.d/support_files/base16-shell"]
+	path = dot_bashrc.d/support_files/base16-shell
+	url = https://github.com/chriskempson/base16-shell.git
