@@ -228,3 +228,4 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 exec --no-startup-id ~/bin/autoxrandr
+exec --no-startup-id feh --recursive --randomize --bg-fill /mnt/Photos/
