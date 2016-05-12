@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+PATH="/usr/local/bin:$PATH"
+unrar e -r -o- ~/Downloads/Site/TV/*.rar /mnt/newsgroups/Complete/TV/
