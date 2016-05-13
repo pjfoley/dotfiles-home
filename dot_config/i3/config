@@ -190,7 +190,7 @@ workspace $workspace10 output $monitor2
 # finds out, if available)
 bar {
     font pango: System San Francisco Display, FontAwesome 11
-    # status_command i3blocks
+    status_command i3blocks
     position bottom
     strip_workspace_numbers yes
     # height 25
@@ -228,4 +228,4 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 exec --no-startup-id ~/bin/autoxrandr
-exec --no-startup-id feh --recursive --randomize --bg-fill /mnt/Photos/
+exec --no-startup-id feh --recursive --randomize --bg-fill ~/.config/wallpapers
