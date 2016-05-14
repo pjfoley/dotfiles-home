@@ -4,6 +4,7 @@ alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias ......='cd ../../../../../'
+alias cdc="cd ${HOME}/.config"
 
 # Make and cd into directory
 function mcd() {
