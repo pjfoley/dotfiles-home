@@ -9,6 +9,7 @@ rofi.line-margin: 5
 rofi.font: System San Francisco Display 18
 rofi.opacity: 80
 
+#include ".config/base16-xresources/base16-shapeshifter.dark.256.xresources"
 URxvt.background:       #151718
 URxvt.foreground:       #d6d6d6
 
