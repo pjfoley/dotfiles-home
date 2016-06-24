@@ -1,4 +1,4 @@
-#include "~/.config/rofi/themes/android_notification.theme"
+#include ".config/rofi/themes/android_notification.theme"
 
 #include ".config/base16-xresources/base16-shapeshifter.dark.256.xresources"
 URxvt.background:       #151718
