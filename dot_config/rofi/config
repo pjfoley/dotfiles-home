@@ -1,0 +1,6 @@
+rofi.eh: 2                                                                                         
+rofi.lines: 5
+rofi.line-margin: 5
+rofi.font: System San Francisco Display 18
+rofi.opacity: 80
+

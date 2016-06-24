@@ -1,13 +1,4 @@
-rofi.background: #151718
-rofi.foreground: #d6d6d6
-rofi.hlbg: #41535B
-rofi.hlfg: #ffffff
-rofi.bc: #151718
-rofi.eh: 2
-rofi.lines: 5
-rofi.line-margin: 5
-rofi.font: System San Francisco Display 18
-rofi.opacity: 80
+#include "~/.config/rofi/themes/android_notification.theme"
 
 #include ".config/base16-xresources/base16-shapeshifter.dark.256.xresources"
 URxvt.background:       #151718
