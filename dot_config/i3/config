@@ -122,6 +122,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+d exec rofi -show run
+bindsym $mod+y exec rofi -show Workspaces
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
