@@ -3,12 +3,12 @@
 # Man path
 # --------
 if [[ ! "$MANPATH" == */usr/local/src/fzf/man* && -d "/usr/local/src/fzf/man" ]]; then
-    export MANPATH="\$MANPATH:/usr/local/src/fzf/man"
+    export MANPATH="$MANPATH:/usr/local/src/fzf/man"
 fi
 
 # Auto-completion
 # ---------------
-[[ \$- == *i* ]] && source \"/usr/local/src/fzf/shell/completion.bash" 2> /dev/null
+[[ \$- == *i* ]] && source "/usr/local/src/fzf/shell/completion.bash" 2> /dev/null
 
 # Key bindings
 # ------------
