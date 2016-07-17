@@ -8,14 +8,14 @@ RESET='\033[0m'
 case "${0##*/}" in
   *TV)
     SOURCE="${HOME}/Downloads/Site/TV"
-    DESTINATION="/mnt/newsgroups/Complete/TV/"
+    DESTINATION="/srv/Newsgroups/Complete/TV/"
     unrar_func=unrar_tv
     cleanup_func=cleanup_tv
     ;;
 
   *MOVIES)
     SOURCE="${HOME}/Downloads/Site/Movies/"
-    DESTINATION="/mnt/Movies"
+    DESTINATION="/srv/Movies"
     unrar_func=unrar_movie
     cleanup_func=cleanup_movie
     ;;
