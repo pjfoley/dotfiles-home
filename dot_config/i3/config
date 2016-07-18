@@ -164,7 +164,7 @@ workspace $workspace10 output $monitor2
   for_window [class="Lxappearance"] floating enable
   for_window [class="Seahorse"] floating enable
   for_window [class="Pavucontrol"] floating enable
-  for_window [class="(?i)VirtualBox" title="(?i)Manager"] floating enable
+  # for_window [class="(?i)VirtualBox" title="(?i)Manager"] floating enable
 
 # Widow Colours
 #                         border  background text    indicator
