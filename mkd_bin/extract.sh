@@ -61,7 +61,7 @@ do
   directory="$(echo "$matched" | sed -n -e '1p' | sed  -e 's#//*#/#g' -e 's#\(.\)/$#\1#' -e 's#^[^/]*$#.#' -e 's#\(.\)/[^/]*$#\1#' -)"
 
   # Find the rar file
-  sfilename=$(find "${directory}" -depth -name "*.rar" -print -quit)
+  sfilename=$(find "${directory}" -maxdepth 1 -name "*.rar" -print -quit)
 
   if ${unrar_func} "${sfilename}"; then
      ${cleanup_func} "${directory}"
