@@ -46,3 +46,6 @@ run_scripts()
 }
 
 run_scripts $HOME/.bashrc.d
+
+export NVM_DIR="/home/pjfoley/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
